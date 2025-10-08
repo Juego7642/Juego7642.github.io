@@ -1,0 +1,77 @@
+body {
+  color: azure;
+  background:black;
+  text-align: center;
+  width: 1000px;
+  margin: auto auto auto auto;
+  font-family: "monospace","Courier","Helvetica";
+  #font-family: "Courier";
+  #line-height: 22px;
+}
+html {
+ background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.hdwallpapers.in%2Fdownload%2Fviolet_fractal_mesh_hd_trippy-HD.jpg&f=1&nofb=1'); 
+ background-repeat: repeat-y;
+ background-position: right-top;
+ background-size: cover;
+}
+#div.heading{
+#  padding: 30px;
+#  line-height:19px;
+#  margin: 30px 25px;
+#  color:black;
+#  background-color: indigo;
+   
+#}
+#content {
+  #line-height: 20px;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  display: inline-block;
+  margin: auto auto;
+}
+ul li::before{
+  content: "\2022";
+  display: inline-block; 
+  width: 1.5em;
+  margin-left: -3em;
+  color: blueviolet;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+a:hover{
+  color:orchid;
+}
+div.navigation, div.navigation>a{
+  color: palevioletred;
+  text-decoration: none; 
+}
+div.navigation>a:hover{
+  color: orchid;
+}
+header{ 
+  #padding:20px;
+
+  padding-bottom:0px;
+
+}
+
+footer{
+  margin-top: 40px;
+}
+#content>div.maintext{
+        margin:20px 50px;
+        border:2px dashed blueviolet;
+        padding: 20px 20px;
+        padding-top:20px;
+        text-align: left;
+}
+iframe{
+        display: block;
+        text-align: center;
+        margin: 35px auto;
+        border: 2px solid blueviolet;
+}
